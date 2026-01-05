@@ -11,14 +11,13 @@
 - [4. 시스템 구성도](#시스템-구성)
 - [5. 예약 화면 흐름 (Client)](#예약-화면-흐름-client)
 - [6. 역할(Role) 기반 접근 제어](#역할role-기반-접근-제어)
-- [7. 주요 화면](#주요-화면)
-- [8. 관련 링크](#관련-링크)
+- [7. 관련 링크](#관련-링크)
 
 ---
 
 ## 프로젝트 소개
 <p align="center">
-  <img src="screenshots/logo.png" width="1000" />
+  <img src="screenshots/logo.png" width="900" />
 </p>
 
 본 프로젝트는 **대학 내 미용실 예약 시스템의 부재**로 인해 발생하는 불편함을 해결하기 위해 기획된 **웹 기반 미용실 예약 관리 시스템**입니다.
@@ -27,7 +26,8 @@
 
 > ※ 실제 구현 코드는 학교 조직 리포지토리에 있으며, 본인은 팀 프로젝트에서 **프론트엔드 구현을 전담**했습니다.
 
--> 학교 조직 리포지토리: https://github.com/gsc-lab/cs25-3-frontend
+> 학교 조직 프로젝트 리포지토리:  
+> https://github.com/gsc-lab/cs25-3-frontend
 
 ---
 
@@ -65,10 +65,10 @@
 ## 시스템 구성도
 
 <p align="center">
-  <img src="screenshots/system-architecture.png" width="1000" />
+  <img src="screenshots/system-architecture.png" width="900" />
 </p>
 
-본 시스템은 Vue.js로 빌드된 정적 파일을 Nginx에서 제공하고, 클라이언트 요청은 REST API를 통해 PHP-FPM과 MySQL로 처리되는 구조로 구성되어 있습니다.
+본 시스템은 Vue.js로 빌드된 정적 파일을 Nginx에서 제공하며, 데이터 처리가 필요한 요청은 REST API를 통해 PHP-FPM과 MySQL로 전달됩니다.
 
 ---
 
@@ -114,37 +114,6 @@
 ### Manager
 <p align="center">
   <img src="screenshots/mypage-manager.gif" width="1000" />
-</p>
-
----
-
-## 주요 화면
-
-> 실제 구현 화면 캡처 이미지입니다.
-
-### 메인 페이지
-<p align="center">
-  <img src="screenshots/main.png" width="1000" />
-</p>
-
-### 예약 페이지
-<p align="center">
-  <img src="screenshots/reservation.png" width="1000" />
-</p>
-
-### 마이페이지 (Client)
-<p align="center">
-  <img src="screenshots/mypage-client.png" width="1000" />
-</p>
-
-### 마이페이지 (Designer)
-<p align="center">
-  <img src="screenshots/mypage-designer.png" width="1000" />
-</p>
-
-### 마이페이지 (Manager)
-<p align="center">
-  <img src="screenshots/mypage-manager.png" width="1000" />
 </p>
 
 ---
