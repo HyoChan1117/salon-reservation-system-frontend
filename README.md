@@ -95,7 +95,7 @@
 ---
 
 ## 예약 화면 흐름 (Client)
-![reservation](screenshots/reservation.mp4)
+![reservation](screenshots/reservation.gif)
 1. 디자이너 선택
 2. 날짜 선택
 3. 시간 선택
